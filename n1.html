@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Задание 1</title>
+    </head>
+    <body>
+        <h1 id = "start">Задание №1</h1>
+        <h2>Информация о странице</h2>
+        <p>Данная страница была создана с целью практики языка разметки html5. Все ссылки ведущие на сторонние сайты связаны с Физикой</p>
+        <p>Физика - область <a href = https://ru.wikipedia.org/wiki/Естествознание>естествознания</a>: наука о наиболее общих законах природы, о материи, её структуре, движении и правилах трансформации. <br>Понятия физики и её законы лежат в основе всего естествознания. <br>Является точной наукой.</p>
+        <p><strong>Выполнил Федорцов Данила Кириллович, 22/1 ФКТиПМ</strong></p>
+        <h2>Список ссылок:</h2>
+        <ol>
+            <li><a href = "http://example.com">example</a> </li>
+            <li><a href = "https://example.com">example</a> </li>
+            <li><a href = "ftp://@example.com/myfile.zip">Ссылка на файл на сервере FTP без авторизации</a></li>
+            <li><a href = "ftp://user:password@example.com/myfile.zip">Ссылка на файл на сервере FTP с авторизацией</a></li>
+            <li><a href = "https://ru.wikipedia.com/wiki/Физика#Прикладная_физика">Прикладная физика</a></li>
+            <li><a href = "#end">В конец списка</a></li>
+            <li><a target = "_blank" href = "https://sibac.info/arhive-article?page=2&science=211">Архив статей по физике</a></li>
+            <li>Полезные ссылки:</li>
+            <li>
+                <ul>
+                    <li><a href = "https://ru.wikipedia.org/wiki/Механика" title = "Макроскопическая физика">Механика</a></li>
+                    <li><a href = "https://ru.wikipedia.org/wiki/Атомная_физика" title = "Микроскопическая физика">Атомная физика</a></li>
+                    <li><a href = "https://ru.wikipedia.org/wiki/Математическая_физика" title = "Разделы физики на стыке наук">Математическая физика</a></li>
+                </ul>
+            </li>
+            <li><a>Ссылка без href</a></li>
+            <li><a href = "">Пустая ссылка</a></li>
+            <li><a href = "https://ru.wikipedia.org/wiki/Физика" rel = "nofollow">Страница о физике в википедии</a></li>
+            <li><noindex--><a href = "https://ru.wikipedia.org/wiki/История_физики">История физики</a></noindex--></li>
+            <li><a href = "https://ru.wikipedia.org/wiki/Физика"><img height = "300" width = "500" alt = "физ" src = "https://catherineasquithgallery.com/uploads/posts/2021-03/1614803844_121-p-fon-dlya-prezentatsii-fizika-162.jpg"></a></li>
+            <li>
+                <img usemap = "#section" alt = "Разделы механики" height = "400" width = "475" src = "https://ds05.infourok.ru/uploads/ex/0c38/0015074f-a17f2986/img4.jpg">
+                <map name = "section">
+                    <area shape = "rect" coords = "0,0,150,190" alt = "Кинематика" href = "https://ru.wikipedia.org/wiki/Кинематика">
+                    <area shape = "rect" coords = "325,0,475,190" alt = "Динамика" href = "https://ru.wikipedia.org/wiki/Динамика_(физика)">
+                    <area shape = "rect" coords = "150,0,325,190" alt = "Ньютон" href = "https://ru.wikipedia.org/wiki/Ньютон,_Исаак">
+                </map>
+            </li>
+            <li> <a href="./n1.html">В текущем каталоге</a></li>
+            <li><a href="./about/n1.html">В каталоге about</a></li>
+            <li><a href="../n1.html">В каталоге на 1 уровень выше</a></li>
+            <li><a href="../../n1.html">На 2 уровня выше</a></li>
+            <li><a href="/"> Сокращенная ссылка на главную </a></li>
+            <li><a href="/glob">Сокращенная ссылка на внутреннюю </a></li>
+            <li><a id = "end" href = "#start">В начало</a></li>
+        </ol>
+
+        <h2>Форма</h2>
+        <form action="URL_отправки_данных" method="POST">
+            <label>Имя:<br>
+                <input name="YourName" value="Имя" />
+            </label>
+            <br><br>
+            <label>Email:<br>
+                <input name="YourEmail" value="E-mail" type="email" />
+            </label>
+            <br><br>
+            <label>Дата рождения:<br>
+                <input name="Birthdate" value="1999-12-31" type="date" />
+            </label>
+            <br><br>
+            Пол:<br>
+            <label><input type="radio" name="s" value="Male" />М</label>
+            <label><input type="radio" name="s" value="Female" />Ж</label>
+            <br><br>
+            Кол-во конечностей:<br>
+            <label><input type="radio" name="limbs" value="1" />1</label>
+            <label><input type="radio" name="limbs" value="2" />2</label>
+            <label><input type="radio" name="limbs" value="3" />3</label>
+            <label><input type="radio" name="limbs" value="4" />4</label>
+            <br><br>
+            <label>Сверхспособности:<br>
+                <select multiple="multiple">
+                    <option>Бессмертие</option>
+                    <option>Левитация</option>
+                    <option>Хождение сквозь стены</option>
+                    <option>Дисмат на 5</option>
+                </select>
+            </label>
+            <br><br>
+            <label>Биография:<br>
+                <textarea placeholder="О себе"></textarea>
+            </label>
+            <br><br>
+            <label><input type="checkbox">С контрактом ознакомлен(-а)</label>
+            <br><br>
+            <input type="button" value="Отправить">
+            <br>
+        </form>
+    
+        <p id="frag">Фрагмент сайта</p>
+    </body>
+</html>
