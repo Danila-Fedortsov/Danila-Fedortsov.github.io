@@ -1,0 +1,161 @@
+body {
+    background-color: #50582a;
+    font-family: Gotham Pro;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    color: #ffffff;
+    position: relative;
+    font-size: 100px;
+    top: 20px;
+    margin: 0;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f5b1f5;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: underline;
+}
+
+li {
+    color: #ffffff;
+    margin: 5px auto;
+}
+
+table {
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+}
+
+th {
+    color: #ffffff;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+}
+
+td {
+    color: #ffffff;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+}
+
+img.logo {
+    margin: 20px;
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+a.button1 {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    width: 18%;
+    padding: 12px;
+    margin: 0px;
+    color: #fff;
+    background-color: #272720;
+}
+
+a.button1:hover {
+    color: #000000;
+    background: #d0e66f;
+    box-shadow: 0 3px #50582a;
+}
+
+header {
+    position: relative;
+    line-height: 200px;
+    width: 100%;
+    background: #272720;
+    border-bottom: 3px #ffffff;
+    padding-bottom: 3px;
+}
+
+div.vac {
+    width: 100%;
+    height: 3px;
+    background-color: #0d0e08;
+}
+
+nav {
+    background-color: #0d0e08;
+}
+
+div.center {
+    background-color: #d0e66f;
+    width: 80%;
+    height: 100%;
+    padding: 100px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+div.info {
+    background-color: #00000023;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 3px solid#00000046
+}
+
+div.links {
+    background-color: #00000023;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 3px solid#00000046
+}
+
+div.table {
+    background-color: #00000023;
+    border: 3px solid#00000046;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+div.form {
+    background-color: #00000023;
+    border: 3px solid#00000046;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+div.footer {
+    background-color: #272720;
+    position: relative;
+    padding: 20px;
+    margin: 0 auto;
+    height: 100%;
+    color: #ffffff;
+}
