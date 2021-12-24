@@ -13,7 +13,7 @@ function calc() {
     if (pattern.test(price.value) && pattern.test(count.value)) {
         result.innerHTML = price.value * count.value;
     } else {
-        alert("Некорректное заначение")
+        alert("Некорректное значение")
     }
     return false;
 }
